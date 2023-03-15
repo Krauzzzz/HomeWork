@@ -1,0 +1,60 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+p{
+  padding-left: 20px;
+  
+}
+
+h3{
+  padding-left: 40px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+body{
+  background-color: antiquewhite;
+}
+
+nav{
+  display: inline;
+  color: rgb(94, 171, 235);
+}
+
+header{
+  padding-top: 33px;
+  background-color: rgba(64, 75, 221, 0.938);
+  color: azure;
+  width: 100%;
+  height: 60px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 23px;
+  font-style: italic;
+  text-align: center;
+}
+
+a{
+  color: azure;
+  text-decoration: none;
+}
+
+a:hover{
+  color: rgb(67, 192, 35);
+}
+
+footer{
+  padding-top: 33px;
+  background-color:rgba(64, 75, 221, 0.938);
+  color: azure;
+  width: 100%;
+  height: 60px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 23px;
+  font-style: italic;
+  text-align: center;
+}
+
+span{
+  color: rgb(94, 171, 235);
+}

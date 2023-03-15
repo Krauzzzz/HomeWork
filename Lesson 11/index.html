@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru"> 
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="icons/icon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css">
+  <title>HTML lesson 11</title>
+</head>
+
+<body>
+  <!-- <form name="form1">
+    Первый способ связать label с полем input
+
+    <label for="#area123">Введите ваше имя:</label>
+    <input id="area123" type="text">
+    <label>
+      Введите ваше имя:
+      <input type="text">
+    </label>
+    <select name="select">
+      <option value="">-- Не выбрано --</option>
+      <option value="one">Один из пунктов</option>
+      <option value="two">Один из пунктов</option>
+      <option value="three">Один из пунктов</option>
+      <option value="four">Один из пунктов</option>
+    </select>
+
+    <textarea cols="30" rows="10">
+
+    </textarea>
+    <button type="submit">Отправить данные</button>
+  </form> -->
+  <!-- <form action="">
+    <fieldset>
+      <legend>Два инпута</legend>
+      <input type="text">
+      <input type="text">
+    </fieldset>
+    <fieldset>
+      <legend>Инпут и поле для выбора</legend>
+      <input type="text">
+      <select name="select">
+        <option value="">-- Не выбрано --</option>
+        <option value="one">Один из пунктов</option>
+        <option value="two">Один из пунктов</option>
+        <option value="three">Один из пунктов</option>
+        <option value="four">Один из пунктов</option>
+      </select>
+    </fieldset>
+    <button type="submit" style="margin-top: 10px; margin-right: 10px;">Отправить</button>
+    <button type="reset">Сбросить</button>
+  </form> -->
+
+
+  <form action="">
+    <fieldset>
+          <legend>Ваши данные:</legend>
+          <div >
+              <label class="info" for="forma1">Имя:</label>
+              <input type="text" name="name" placeholder="Имя" id="forma1">
+          </div>
+          <div >
+              <label class="info" for="forma2">Фамилия:</label>
+              <input type="text" name="famalia" placeholder="Фамилия" id="forma2">
+          </div>
+          <div >
+              <label class="info" for="forma3">Отчество:</label>
+              <input type="text" name="second-name" placeholder="Отчество" id="forma3">
+          </div>
+          <div >
+              <label class="info" for="forma4">Email:</label>
+              <input type="email" name="email" placeholder="email@mail.ru" id="forma4">
+          </div>
+          <div >
+            <label class="info" for="forma5">Phone:</label>
+            <input type="phone" name="phone" placeholder="+ 7(999) 999-99-99" id="forma5">
+        </div>
+            
+      <div>
+        <label class="info vibor" for="forma6">Выберете город доставки:</label>
+          <select id="forma6" name="select" style="margin-left: 100px;">
+            <option value="">-- Выберете город --</option>
+            <option value="moskva">Москва</option>
+            <option value="peter">Санкт-Петербург</option>
+            <option value="novosib">Новосибирск</option>
+            <option value="ekat">Екатеринбург</option>
+            <option value="nnovgorod">Нижний Новгород</option>
+            <option value="kazanb">Казань</option>
+            <option value="chelyaba">Челябинск</option>
+            <option value="omsk">Омск</option>
+            <option value="samara">Самара</option>
+            <option value="rostov">Ростов-на-Дону</option>
+            <option value="ufa">Уфа</option>
+            <option value="krasnoyarsk">Красноярск</option>
+            <option value="voroneg">Воронеж</option>
+            <option value="permb">Пермь</option>
+          </select>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Данные питомца:</legend>
+      <div >
+        <label class="info" for="forma7">Кличка:</label>
+        <input type="text" name="pet" placeholder="Кличка питомца" id="forma7">
+    </div>
+    </fieldset>
+
+    <button class="button1" type="submit" ">Отправить</button>
+    <button class="button2" type="reset">Сбросить</button>
+
+  </form>
+</body>
+
+</html>
+

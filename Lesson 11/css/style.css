@@ -1,0 +1,53 @@
+*
+{
+	margin: 0px;
+	padding: 10px;
+	background-color: aliceblue;
+}
+
+input
+{
+	width: 200px;
+}
+
+fieldset
+{
+	width: 425px;
+	background-color: rgb(169, 226, 183);
+}
+
+select
+{
+	width: 198px;
+	padding-left: 30px;
+}
+
+form
+{
+	font-weight: 700;
+	background-color: rgb(169, 226, 183);
+	width: 24.5%;
+}
+
+label
+{
+	display: inline-block;
+	width: 150px;
+}
+
+.vibor
+{
+	width: auto;
+	margin-left: 93px;
+}
+
+.button1{
+	margin-top: 20px;
+	margin-left: 100px;
+	font-weight: 700;
+}
+
+.button2{
+	margin-left: 50px;
+	font-weight: 700;
+}
