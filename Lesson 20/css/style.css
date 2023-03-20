@@ -1,0 +1,62 @@
+/* .em__title-2 {
+  font-size: 1.5em;
+}
+
+.em__square {
+  width: 31.25em;
+  height: 31.25em;
+  background-color: hsla(234, 74%, 30%, 0.87);
+}
+
+.line {
+  height: 1px;
+  width: 100%;
+  border: ridge;
+}
+
+.em-2 {
+  font-size: 1.5em;
+}
+
+.em-2__child {
+  font-size: 1.5em;
+}
+
+.em-2__title-1 {
+  font-size: 1.5em;
+}
+
+.em-3 {
+  font-size: 1.5em;
+}
+
+.rem {
+  font-size: 1.5rem;
+}
+
+body {
+  font-size: 20px;
+} */
+
+/* От чего бывают проценты: */
+/* % ширины */
+/* % высоты */
+/* % позишна */
+/* % марджинов паддингов */
+/* % транслейта*/
+/* фонтсайза и лайнхаята */
+
+/* .parent-square {
+  border: 5px solid #000;
+}
+
+.parent-square__child {
+  width: 700px;
+  height: 700px;
+} */
+
+/* Home Work */
+.title {
+  font-size: 3rem;
+  line-height: 200%;
+}
