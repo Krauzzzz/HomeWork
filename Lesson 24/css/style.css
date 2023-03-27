@@ -1,0 +1,108 @@
+.wrapper {
+  padding: 100px 15px;
+  height: 100vh;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+  height: 100%;
+  border: 10px solid #999;
+  border-radius: 10px;
+  display: flex;
+}
+
+.block {
+  height: 365px;
+  width: 100%;
+  max-width: 200px;
+  border-radius: 10px;
+  box-shadow: inset 0 0 20px #000;
+}
+
+.green {
+  background-color: #95d670;
+}
+
+.purple {
+  background-color: #c06ed4;
+}
+
+.blue {
+  background-color: #5c5aca;
+}
+
+.orange {
+  background-color: #dd9646;
+}
+
+.red {
+  background-color: #c93e49;
+}
+
+/* __________________________________________ */
+
+/* .container {
+  position: relative;
+} */
+
+.blue {
+  /* position: static; */
+  /* position: relative;
+  top: 100px;
+  left: 100px;
+  z-index: -1; */
+  /* position: sticky;
+  top: 10px; */
+}
+
+/* html {
+  position: relative;
+} */
+
+.orange {
+  /* position: absolute;
+  left: 80%;
+  top: 300px; */
+  /* position: sticky;
+  top: 50px; */
+}
+
+.red {
+  /* position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: -1; */
+  /* position: sticky;
+  top: 100px; */
+}
+
+/* .green {
+  position: sticky;
+  top: 0;
+} */
+
+/*  Home work */
+
+/* .red {
+  position: fixed;
+  bottom: 100px;
+  right: 50px;
+} */
+
+
+/* Home work */
+
+/* 1. Вариант с  привязкой левого края к середине вьюпорты*/
+.red {
+  position: fixed;
+  bottom: 100px;
+  left: 50%;
+}
+
+/* 2. Вариант с  привязкой на 50px от правого края*/
+.red {
+  position: fixed;
+  bottom: 100px;
+  right: 50px;
+}
