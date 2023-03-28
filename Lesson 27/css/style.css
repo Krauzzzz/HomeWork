@@ -1,0 +1,71 @@
+body {
+  background-color: #333;
+}
+
+.wrapper {
+  padding: 50px;
+  height: 100%;
+}
+
+.container {
+  position: relative;
+  background-color: #444;
+  height: 200px;
+}
+
+.block {
+  position: absolute;
+  background-color: #2c29df;
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  padding-top: 85px;
+  font-size: 2rem;
+}
+
+/* ------------------------------------------------------- */
+.block {
+  animation: move-block 5s infinite alternate 1s,
+  color-block 1s 3s forwards,
+  color-text infinite alternate 1s;
+  /* animation-name: ; */
+  /* animation-duration: ; */
+  /* animation-timing-function: ; */
+  /* animation-iteration-count: 10; (или можно задать "infinite" и анимация будет проигрываться постоянно) */
+  /* animation-direction: alternate; */
+  /* animation-delay: ; */
+  /* animation-fill-mode: forwards; */
+}
+
+.block:hover {
+  animation-play-state: paused;  при наведении на квадратик анимация останавливается
+  /* animation-name: none; при наведении на квадратик анимация начинается с самого начала */
+}
+
+@keyframes move-block {
+  0% {
+    left: 0;
+  }
+  50% {
+    border-radius: 50%;
+  }
+  100% {
+    left: calc(100% - 200px);
+  }
+}
+
+@keyframes color-block {
+  /* 100% {
+    background-color: rgb(99, 88, 241);
+  } */
+}
+
+@keyframes color-text {
+  0% { 
+    color: #000000;
+  }
+  100% {
+    color: #ff0000;
+  }
+}
+
